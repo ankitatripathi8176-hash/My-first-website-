@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ankita Tripathi | Developer 👑</title>
-    <link rel="stylesheet" href="style.css?v=10001">
+  <title>Ankita Tripathi - Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Hi, I'm Ankita Tripathi 👋</h1>
-        <h2>Developer from Deoria, India 🇮🇳</h2>
-        <p class="tagline">I fight bugs. I build websites. I never give up. 💪</p>
-        
-        <button id="meraButton">My Victory Story 🔥</button>
-        <p id="papaMessage"></p>
-
-        <div class="skills">
-            <h3>My Superpowers ⚡</h3>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Debugging</span>
-            <span>Not Giving Up</span>
-        </div>
-    </div>
+  <div class="container">
+    <h1>Hi, I'm Ankita Tripathi 👋</h1>
+    <h2>Developer from Deoria, India 🇮🇳</h2>
+    <p>I fight bugs. I build websites. I never give up. 💪</p>
+    <button onclick="showVictory()">My Victory Story 🔥</button>
+    <p id="msg"></p>
     
-    <script src="script.js?v=10001"></script>
+    <h3>My Superpowers ⚡</h3>
+    <div class="skills">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Debugging</span>
+      <span>Not Giving Up</span>
+    </div>
+  </div>
+
+<script>
+function showVictory() {
+    document.getElementById('msg').innerHTML = 'Papa I did it! 💛';
+}
+</script>
 </body>
 </html>
